@@ -12,7 +12,7 @@ Flight Status WatchOS App is a SwiftUI-based application designed for Apple Watc
 
 ## Screenshots
 
-_Add screenshots here_
+https://github.com/user-attachments/assets/6263682d-0f69-46fd-8bb9-b26bc6136889
 
 ## Requirements
 
