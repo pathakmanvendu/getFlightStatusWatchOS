@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'GetFlightStatus' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for GetFlightStatus
+
+end
+
+target 'GetFlightStatus Watch App' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for GetFlightStatus Watch App
+
+  pod 'SDWebImageLottieCoder', '~> 0.1.0'
+
+end

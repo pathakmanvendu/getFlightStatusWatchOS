@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C26EA9B2C50059F005D3C15 /* GetFlightStatus Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5C26EA9A2C50059F005D3C15 /* GetFlightStatus Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C26EAA02C50059F005D3C15 /* GetFlightStatusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26EA9F2C50059F005D3C15 /* GetFlightStatusApp.swift */; };
+		5C26EAA22C50059F005D3C15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26EAA12C50059F005D3C15 /* ContentView.swift */; };
+		5C26EAA42C5005A0005D3C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C26EAA32C5005A0005D3C15 /* Assets.xcassets */; };
+		5C26EAA72C5005A0005D3C15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C26EAA62C5005A0005D3C15 /* Preview Assets.xcassets */; };
+		5C26EAB32C500600005D3C15 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5C26EAB22C500600005D3C15 /* Alamofire */; };
+		5C26EAB52C500600005D3C15 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 5C26EAB42C500600005D3C15 /* AlamofireDynamic */; };
+		5C26EAB72C500616005D3C15 /* FlightStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26EAB62C500616005D3C15 /* FlightStatusResponse.swift */; };
+		5C26EAB92C500668005D3C15 /* FlightStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26EAB82C500668005D3C15 /* FlightStatusViewModel.swift */; };
+		5C26EABB2C500866005D3C15 /* FlightDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26EABA2C500866005D3C15 /* FlightDetailsView.swift */; };
+		5C26EABD2C501255005D3C15 /* LottieAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26EABC2C501255005D3C15 /* LottieAnimation.swift */; };
+		5C26EABF2C501365005D3C15 /* lottieFile.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C26EABE2C501365005D3C15 /* lottieFile.json */; };
+		5C26EAC52C501553005D3C15 /* SDWebImageLottieCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 5C26EAC42C501553005D3C15 /* SDWebImageLottieCoder */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C26EA9C2C50059F005D3C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C26EA8E2C50059E005D3C15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C26EA992C50059F005D3C15;
+			remoteInfo = "GetFlightStatus Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C26EAAD2C5005A0005D3C15 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5C26EA9B2C50059F005D3C15 /* GetFlightStatus Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C26EAC22C50143E005D3C15 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C26EA942C50059F005D3C15 /* GetFlightStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetFlightStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C26EA9A2C50059F005D3C15 /* GetFlightStatus Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GetFlightStatus Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C26EA9F2C50059F005D3C15 /* GetFlightStatusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFlightStatusApp.swift; sourceTree = "<group>"; };
+		5C26EAA12C50059F005D3C15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C26EAA32C5005A0005D3C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C26EAA62C5005A0005D3C15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C26EAB62C500616005D3C15 /* FlightStatusResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStatusResponse.swift; sourceTree = "<group>"; };
+		5C26EAB82C500668005D3C15 /* FlightStatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStatusViewModel.swift; sourceTree = "<group>"; };
+		5C26EABA2C500866005D3C15 /* FlightDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsView.swift; sourceTree = "<group>"; };
+		5C26EABC2C501255005D3C15 /* LottieAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimation.swift; sourceTree = "<group>"; };
+		5C26EABE2C501365005D3C15 /* lottieFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottieFile.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C26EA972C50059F005D3C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C26EAB32C500600005D3C15 /* Alamofire in Frameworks */,
+				5C26EAC52C501553005D3C15 /* SDWebImageLottieCoder in Frameworks */,
+				5C26EAB52C500600005D3C15 /* AlamofireDynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B8D3B2545C5B3734BC4D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C26EA8D2C50059E005D3C15 = {
+			isa = PBXGroup;
+			children = (
+				5C26EA9E2C50059F005D3C15 /* GetFlightStatus Watch App */,
+				5C26EA952C50059F005D3C15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C26EA952C50059F005D3C15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C26EA942C50059F005D3C15 /* GetFlightStatus.app */,
+				5C26EA9A2C50059F005D3C15 /* GetFlightStatus Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C26EA9E2C50059F005D3C15 /* GetFlightStatus Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5C26EA9F2C50059F005D3C15 /* GetFlightStatusApp.swift */,
+				5C26EAA12C50059F005D3C15 /* ContentView.swift */,
+				5C26EAB82C500668005D3C15 /* FlightStatusViewModel.swift */,
+				5C26EABA2C500866005D3C15 /* FlightDetailsView.swift */,
+				5C26EABC2C501255005D3C15 /* LottieAnimation.swift */,
+				5C26EABE2C501365005D3C15 /* lottieFile.json */,
+				5C26EAB62C500616005D3C15 /* FlightStatusResponse.swift */,
+				5C26EAA32C5005A0005D3C15 /* Assets.xcassets */,
+				5C26EAA52C5005A0005D3C15 /* Preview Content */,
+			);
+			path = "GetFlightStatus Watch App";
+			sourceTree = "<group>";
+		};
+		5C26EAA52C5005A0005D3C15 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5C26EAA62C5005A0005D3C15 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C26EA932C50059F005D3C15 /* GetFlightStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C26EAAE2C5005A0005D3C15 /* Build configuration list for PBXNativeTarget "GetFlightStatus" */;
+			buildPhases = (
+				5C26EA922C50059F005D3C15 /* Resources */,
+				5C26EAAD2C5005A0005D3C15 /* Embed Watch Content */,
+				71B8D3B2545C5B3734BC4D0B /* Frameworks */,
+				5C26EAC22C50143E005D3C15 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C26EA9D2C50059F005D3C15 /* PBXTargetDependency */,
+			);
+			name = GetFlightStatus;
+			productName = GetFlightStatus;
+			productReference = 5C26EA942C50059F005D3C15 /* GetFlightStatus.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		5C26EA992C50059F005D3C15 /* GetFlightStatus Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C26EAAA2C5005A0005D3C15 /* Build configuration list for PBXNativeTarget "GetFlightStatus Watch App" */;
+			buildPhases = (
+				5C26EA962C50059F005D3C15 /* Sources */,
+				5C26EA972C50059F005D3C15 /* Frameworks */,
+				5C26EA982C50059F005D3C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GetFlightStatus Watch App";
+			packageProductDependencies = (
+				5C26EAB22C500600005D3C15 /* Alamofire */,
+				5C26EAB42C500600005D3C15 /* AlamofireDynamic */,
+				5C26EAC42C501553005D3C15 /* SDWebImageLottieCoder */,
+			);
+			productName = "GetFlightStatus Watch App";
+			productReference = 5C26EA9A2C50059F005D3C15 /* GetFlightStatus Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C26EA8E2C50059E005D3C15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5C26EA932C50059F005D3C15 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5C26EA992C50059F005D3C15 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 5C26EA912C50059E005D3C15 /* Build configuration list for PBXProject "GetFlightStatus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C26EA8D2C50059E005D3C15;
+			packageReferences = (
+				5C26EAB12C500600005D3C15 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				5C26EAC32C501553005D3C15 /* XCRemoteSwiftPackageReference "SDWebImageLottieCoder" */,
+			);
+			productRefGroup = 5C26EA952C50059F005D3C15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C26EA932C50059F005D3C15 /* GetFlightStatus */,
+				5C26EA992C50059F005D3C15 /* GetFlightStatus Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C26EA922C50059F005D3C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C26EA982C50059F005D3C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C26EAA72C5005A0005D3C15 /* Preview Assets.xcassets in Resources */,
+				5C26EABF2C501365005D3C15 /* lottieFile.json in Resources */,
+				5C26EAA42C5005A0005D3C15 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C26EA962C50059F005D3C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C26EAB92C500668005D3C15 /* FlightStatusViewModel.swift in Sources */,
+				5C26EAA22C50059F005D3C15 /* ContentView.swift in Sources */,
+				5C26EAA02C50059F005D3C15 /* GetFlightStatusApp.swift in Sources */,
+				5C26EAB72C500616005D3C15 /* FlightStatusResponse.swift in Sources */,
+				5C26EABB2C500866005D3C15 /* FlightDetailsView.swift in Sources */,
+				5C26EABD2C501255005D3C15 /* LottieAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C26EA9D2C50059F005D3C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C26EA992C50059F005D3C15 /* GetFlightStatus Watch App */;
+			targetProxy = 5C26EA9C2C50059F005D3C15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C26EAA82C5005A0005D3C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Debug;
+		};
+		5C26EAA92C5005A0005D3C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Release;
+		};
+		5C26EAAB2C5005A0005D3C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GetFlightStatus Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = N62N447LUW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GetFlightStatus;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pathakmanvendu.GetFlightStatus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		5C26EAAC2C5005A0005D3C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GetFlightStatus Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = N62N447LUW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GetFlightStatus;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pathakmanvendu.GetFlightStatus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		5C26EAAF2C5005A0005D3C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N62N447LUW;
+				INFOPLIST_KEY_CFBundleDisplayName = GetFlightStatus;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pathakmanvendu.GetFlightStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5C26EAB02C5005A0005D3C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N62N447LUW;
+				INFOPLIST_KEY_CFBundleDisplayName = GetFlightStatus;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pathakmanvendu.GetFlightStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C26EA912C50059E005D3C15 /* Build configuration list for PBXProject "GetFlightStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C26EAA82C5005A0005D3C15 /* Debug */,
+				5C26EAA92C5005A0005D3C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C26EAAA2C5005A0005D3C15 /* Build configuration list for PBXNativeTarget "GetFlightStatus Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C26EAAB2C5005A0005D3C15 /* Debug */,
+				5C26EAAC2C5005A0005D3C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C26EAAE2C5005A0005D3C15 /* Build configuration list for PBXNativeTarget "GetFlightStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C26EAAF2C5005A0005D3C15 /* Debug */,
+				5C26EAB02C5005A0005D3C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C26EAB12C500600005D3C15 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		5C26EAC32C501553005D3C15 /* XCRemoteSwiftPackageReference "SDWebImageLottieCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageLottieCoder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C26EAB22C500600005D3C15 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C26EAB12C500600005D3C15 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5C26EAB42C500600005D3C15 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C26EAB12C500600005D3C15 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		5C26EAC42C501553005D3C15 /* SDWebImageLottieCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C26EAC32C501553005D3C15 /* XCRemoteSwiftPackageReference "SDWebImageLottieCoder" */;
+			productName = SDWebImageLottieCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5C26EA8E2C50059E005D3C15 /* Project object */;
+}
